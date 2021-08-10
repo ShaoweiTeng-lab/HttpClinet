@@ -45,7 +45,7 @@ public class JasonHttp : MonoBehaviour
         //DownLoadFloader(@"D:\texttest\HttpDownLoad\test_250m.zip", "http://http.speed.hinet.net/test_250m.zip");
         //Action<string> GetJsonAction=(Data)=>{ Debug.Log($"Json Get : {Data}"); };
         //GetJsonAsync("http://localhost:3000/PlayerData", GetJsonAction);// 可在start 前 加上 async 這樣的話往下的程式碼將等待此執行完才繼續
-       // DownLoadPng(@"D:\texttest\HttpDownLoad\flower.jpg", "https://photos.mandarinoriental.com/is/image/MandarinOriental/hong-kong-flower-shop-lifestyle?wid=2880&hei=1200&fmt=jpeg&qlt=75,0&op_sharpen=0&resMode=sharp2&op_usm=0,0,0,0&iccEmbed=0&printRes=72&fit=wrap", image);
+       DownLoadPng(@"D:\flower.jpg", "https://photos.mandarinoriental.com/is/image/MandarinOriental/hong-kong-flower-shop-lifestyle?wid=2880&hei=1200&fmt=jpeg&qlt=75,0&op_sharpen=0&resMode=sharp2&op_usm=0,0,0,0&iccEmbed=0&printRes=72&fit=wrap", image);
     }
 
     // Update is called once per frame
